@@ -1,1 +1,1 @@
-Hi I am astha, this My Projects repo
+Hi I am Astha, this is my Projects repo.

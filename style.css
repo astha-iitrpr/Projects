@@ -1,0 +1,54 @@
+header {
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 37, 175);
+    margin: 0;
+    padding: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #CADCFC;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+main p {
+    font-size: 27px;
+    position: absolute;
+    top: 155px;
+    right: 19px;
+    left: 360px;
+}
+
+.impk {
+    padding: 20px;
+}
+
+.gen {
+    background-color: rgb(175, 199, 249);
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(37, 37, 175);
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+
+}

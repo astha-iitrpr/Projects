@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-b3">
+    <div>
+    <nav class="bg-b1 md:flex md:justify-between">
+        <ul class="grid grid-cols-3 gap-3 md:flex p-4 md:space-x-3 text-xl text-white mt-2">
+            <li class="hover:underline">Home</li>
+            <li class="hover:underline">Contact Us</li>
+            <li class="hover:underline">Women</li>
+            <li class="hover:underline">Kids</li>
+            <li class="hover:underline">Men</li>
+            <li class="hover:underline">Footwear</li>
+        </ul>
+        <ul class="flex space-x-5 m-3">
+            <div class="text-xl text-white"><img src="assets/whishlist.svg" class="invert">whishlist</div>
+            <button class="p-1 m-2 justify-center h-10 flex bg-b4 rounded-full text-xl font-semibold hover:bg-white"><img src="assets/cart.svg" class="m-1 invert">Cart(0)</button>
+        </ul>
+    </nav>
+       
+    <div class="md:flex bg-b5 h-72 my-14"> <!-- Home page -->
+      <div class="p-7 md:ml-48">
+        <p class="text-5xl text-white m-2">Get up to 40% off</p>
+        <p class="text-5xl text-white m-2">New Arrivals</p>
+        <button class="bg-b4 p-2 text-2xl m-2">Shop Now</button>
+      </div>
+      <img src="assets/img-h1.png" class=" invisible md:ml-20 md:visible">
+    </div>
+   
+    <div class="flex justify-between"><!-- top section -->
+        <div class="text-2xl mt-5 ml-5 hover:underline">Women Collection</div>
+        <div><a href="#" class="flex mr-auto p-5 hover:underline">view all<img src="assets/arrow.svg" class="invert w-6"></a></div>
+    </div>
+    <div class="justify-center grid grid-cols-1 sm:grid sm:flex-wrap ml-auto md:space-x-5 text-b5 mt-2 md:flex md:flex-auto" id="WCollection"> <!-- Women Collection -->
+    </div>
+
+    <div class="flex justify-between"><!-- top section -->
+        <div class="text-2xl mt-5 ml-5 hover:underline">Kids Collection</div>
+        <div><a href="#" class="flex mr-10 p-5 hover:underline">view all<img src="assets/arrow.svg" class="invert w-6"></a></div>
+    </div>
+    <div class="justify-center grid grid-cols-1 sm:grid sm:flex-wrap ml-auto md:space-x-5 text-b5 mt-2 md:flex md:flex-auto" id="KCollection"> <!-- Kids Collection -->
+    </div>
+
+    <div class="flex justify-between"><!-- top section -->
+        <div class="text-2xl mt-5 ml-5 hover:underline">Mens Collection</div>
+        <div><a href="#" class="flex mr-10 p-5 hover:underline">view all<img src="assets/arrow.svg" class="invert w-6"></a></div>
+    </div>
+    <div class="justify-center grid grid-cols-1 sm:grid sm:flex-wrap ml-auto md:space-x-5 text-b5 mt-2 md:flex md:flex-auto" id="MCollection"> <!-- Mens Collection -->
+    </div>
+
+    <div class="flex justify-between"><!-- top section -->
+        <div class="text-2xl mt-5  ml-5 hover:underline">Footwear Collection</div>
+        <div><a href="#" class="flex mr-10 p-5 hover:underline">view all<img src="assets/arrow.svg" class="invert w-6"></a></div>
+    </div>
+    <div class="justify-center grid grid-cols-1 sm:grid sm:flex-wrap ml-auto md:space-x-5 text-b5 mt-2 md:flex md:flex-auto" id="FCollection"> <!-- Footwear Collection -->
+    </div>
+
+    <footer class="bg-b1 h-auto p-5 mt-16 text-white text-xl">
+        <div class="md:flex md:justify-between">
+            <ul class=" grid grid-cols-3 gap-3 md:flex md:space-x-3 md:ml-8 mt-2">
+                <li>Legal</li>
+                <li>Privacy Policy</li>
+                <li>Cookies</li>
+                <li>Accessibility</li>
+                <li>About Ads</li>
+            </ul>
+            <div class="mr-8 mt-2 md:ml-8">
+                &copy; 2024 All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    </div>
+       <script src="script.js"></script>
+    </body>
+</html>

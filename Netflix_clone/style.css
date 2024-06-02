@@ -1,0 +1,265 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assets/images/back_img.jpg");
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    height:70vh;
+    background-repeat: no-repeat;
+   position: relative;
+}
+.main .box{
+    height: 70vh;
+    position: absolute;
+    top:0;
+    background-color: black;
+    opacity:0.55;
+    width:100%;
+    
+}
+.b1{
+    display: flex;
+    height:calc(100% - 100px);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    gap:23px;
+    padding: 0 30px;
+    color:white;
+}
+.s1{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.s2{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+/* nav */
+nav{
+    max-width: 60vw;
+   margin: auto;
+   height:100px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+nav img{
+    position:relative;
+    z-index:10;
+    width:130px;
+    color:red;
+}
+.nav-btn{
+position:relative;
+ z-index:10;
+ color:white;
+ display: flex;
+width: 15vw;
+ gap: 25px;
+
+}
+.eng img{
+    margin-right: 9px;
+}
+.eng{
+    border-radius: 2px;
+    background: transparent;
+    padding: 8px;
+    border:0.1px solid white;
+    display: flex;
+    width: 110px;
+    color:white;
+    font-weight: 600;
+} 
+ nav button:nth-child(2){
+    border-radius: 4px;
+    border: none;
+    background-color: red;
+    padding: 2px;
+    color: white;
+    font-weight: 700;
+    width: 75px;
+}
+
+.hr-btn{
+    display: flex;
+    gap:10px;
+}
+/* main-2 */
+input{
+    background-color:  rgb(20 20 20);
+    opacity: 0.6;
+    font-size: 20px;
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid white;
+    font-weight: 500;
+}
+::placeholder{
+    color:white;
+}
+.start{
+     background-color: red;
+     border:none;
+     color: white;
+     padding: 12px;
+     border-radius: 5px;
+     font-size: 25px;
+     font-weight: 600;
+}
+.separation{
+    height: 7px;
+   background-color: rgb(51, 50, 50);
+}
+/* section */
+.first{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+    align-items: center;
+    margin:auto;
+    justify-content: center;
+    gap:23px;
+}
+@media screen and (max-width:1300px){
+   .odd{
+    flex-wrap: wrap;
+   }
+   .even{
+    flex-wrap: wrap-reverse;
+   } 
+}
+.tv{
+    position: relative;
+    top:0;
+}
+.tv img{
+    width: 35vw;
+    position:relative;
+    z-index:10;
+}
+.tv video {
+    top: 5vw;
+    position:absolute;
+    right: 0;
+    width: 26vw;
+    left: 4vw;
+   
+}
+section{
+   display: flex;
+   justify-content: center;
+   padding: 45px;
+}
+.st img{
+    width:8vw;
+}
+.text{
+    color: white;
+}
+.down{
+    color: rgb(52, 52, 225);
+}
+.st{
+    display: flex;
+    position: relative;
+    gap:25px;
+    border: 3px solid gray;
+    border-radius: 8px;
+    bottom: 55px;
+    z-index: 10;
+    align-items: center;
+    justify-self: right;
+    background-color: black;
+}
+.st1{
+    background:url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif') right no-repeat;
+    width:10vw;
+    height:7vh;
+}
+.pile video{
+    top: 1.5vw;
+    position:absolute;
+    left: 6vw;
+    width: 22vw;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.faq{
+   padding: 34px;
+}
+.bar:hover{
+    background-color: #414141;
+}
+.bar{
+    transition: all 0.4s ease-out;
+    height: 8vh;
+    background-color: #2d2d2d;
+    max-width:60vw;
+    color: white;
+    margin: 30px auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   font-size: 35px;
+   cursor:pointer;
+}
+.bottom{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap:33px;
+    align-items: center;
+   justify-content: space-between;
+   margin-bottom: 45px;
+
+
+}
+
+.ft{
+    padding: 20px;
+    color: rgb(149, 148, 148);
+    font-size: 24px;
+    font-weight: 500;
+}
+a:link{
+    color:rgb(149, 148, 148); ;
+}
+.last{
+    margin: 20px;
+}
+footer{
+    font-size: 24px;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: repeat(4,57px);
+    margin-left: 60px;
+}
+@media screen and (max-width:1300px){
+    footer{
+        font-size: 24px;
+        font-weight: 500;
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows: repeat(7,57px);
+       margin-left: 28px;
+       
+    }
+ }
